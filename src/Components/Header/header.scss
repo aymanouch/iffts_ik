@@ -1,0 +1,25 @@
+@import "../../App.scss";
+.header{
+    position:relative;
+    .header-container{
+        direction: ltr;
+        h1{
+            direction:ltr;
+            background:#fff;
+            color:#000;
+            padding-left:2rem;
+            max-width:80%;
+            border-bottom-right-radius:.5rem;
+            font-family:$font3;
+            font-size:2.5rem;
+        }
+    }
+    img{
+        width:100%;
+        object-fit: cover;
+        position:absolute;
+        top:0;
+        left:0;
+        z-index:-1;
+    }
+}

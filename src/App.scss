@@ -1,0 +1,25 @@
+//declare the variables 
+$phone:780px;
+$desktop:1440px;
+//fonts
+$font1:'Cairo', sans-serif;
+$font2:'Mada', sans-serif;
+$font3: 'Arvo', serif;
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  direction: rtl;
+
+  ul{
+    list-style: none;
+  }
+
+  .center-elements{
+    padding: 0 1.5rem;
+    @media screen and (min-width:$phone) {
+      padding:0 3rem;
+    }  
+  }
+}
